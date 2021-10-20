@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: list-item;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.subtitle{
+    font-size: 25px;
+    text-decoration: underline;
+}
