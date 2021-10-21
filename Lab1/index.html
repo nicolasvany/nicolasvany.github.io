@@ -4,13 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolas Vanysacker</title>
+    <title>Lab1 - HTML</title>
     <link rel="stylesheet" href="../styleIndexen.css">
 </head>
 <body> 
-    <h1>Links - Lab 1</h1>
-    <nav>
-        <a href="opdracht1_week20.09.docx" download="opdracht1_week20.09.docx">Word-doc - Lab 1</a><br />
-    </nav>
+    <h1>Labo 1 HTML - Nicolas Vanysacker 1TIA</h1>
+    <section>
+        <h1>Opdracht 1</h1>
+        <img src="opdracht1.png">
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 2</h1>
+        <p>https://www.bol.com/nl/p/hoe‐werkt‐dat-nou/9200000057347012/?country=BE&suggestionType=browse#product_alternatives</p>
+        <ul>
+            <li><b>Protocol: </b>https:</li>
+            <li><b>Autoriteit: </b>//www.bol.com</li>
+            <li><b>Padnaam: </b>/nl/p/hoe‐werkt‐dat-nou/9200000057347012</li>
+            <li><b>Query: </b>/?country=BE&suggestionType=browse</li>
+            <li><b>Fragment: </b>#product_alternatives</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 3</h1>
+        <p><b>Open de Chrome ontwikkelaar tools (F12), ga naar het Network tabblad en surf naar https://www.htmldog.com/examples/headings1.html </b></p>
+        <img src="opdracht3.png">
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 4</h1>
+        <p><b>Welke resources heeft je browser nog meer opgevraagd? Hoe zie je dit?</b></p>
+        <p>Hij heeft ook afbeeldingen (svg + xml en een png) en een icon (x-icon) opgevraagd. </p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 5</h1>
+        <p><b>Welke andere soorten resources worden opgevraagd door het inladen van deze pagina?</b></p>
+        <p>Soorten resources: scripts, fonts, stylesheet, document…</p>
+        <p><b>Werden alle requests naar dezelfde server verstuurd?</b></p>
+        <p>Requests naar verschillende servers</p>
+        <p><b>Hoe kun je dit uit de timing informatie afleiden?</b></p>
+        <p>Er worden verschillende items op verschillende momenten opgevraagd</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 6</h1>
+        <p><b>Afhankelijk van welke webmail provider je gebruikt, zul je zien dat er na verloop van tijd requests bijkomen ook al verandert er niks aan de webpagina. Waarvoor zouden die 'spontane' requests dienen ?</b></p>
+        <p>Statistieken/voor advertenties/om te weten wat je al allemaal hebt bekeken</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 7</h1>
+        <p><b>Wat betekent de status code 404 in de response header?</b></p>
+        <p>Page not found</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 8</h1>
+        <p><b>Wat is het verschil met de vorige opdracht?</b></p>
+        <p>Bij de vorige opdracht bestond een subpagina niet van een bepaalde website, hier bestaat de hele pagina niet</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 9</h1>
+        <img src="opdracht9.png">
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 10</h1>
+        <p><b>Zoek op het internet welke HTTP request methods er bestaan en schrijf ze neer.</b></p>
+            <p>POST, GET, PUT, PATCH, DELETE</p>
+        <p><b>Waarvoor dienen de vaak gebruikte GET en POST methods?</b></p>
+            <p>GET: de GET-methode vraagt om een representatie van de opgegeven resource. Verzoeken die GET gebruiken, mogen alleen gegevens ophalen.</p>
+            <p>POST: de POST-methode wordt gebruikt om een entiteit naar de opgegeven bron te sturen, wat vaak een statusverandering of bijwerkingen op de server veroorzaakt.</p>
+        <p><b>Waar in een request staat aangegeven om welke request method het gaat, en hoe vind je dit terug in de Chrome developer tools</b></p>
+            <p></p>
+        <p><b>Als je een url in de adresbalk van je browser typt en op enter drukt, wat voor request method gebruikt de browser dan om die resource op te vragen bij de server?</b></p>
+            <p>Je kan ziet om welke methode het gaat in de tabel bij Method</p>
+        <p><b>Als je in een webpagina op een gewone hyperlink klikt, welke request method wordt er dan gebruikt?</b></p>
+            <p>GET</p>
+        <p><b>Als je in een webpagina op een gewone hyperlink klikt, welke request method wordt er dan gebruikt?</b></p>
+            <p>GET</p>
+        <p><b>Wat zou er dan gebeuren met de productgegevens?</b></p>
+            <p>Als dit gebeurt word alle inhoud van alle paginas gewist</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 11</h1>
+        <p><b>Bekijk de vele requests die het inladen van die ene pagina heeft veroorzaakt. Hoeveel request waren er in totaal?</b></p>
+        <p>44 requests</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 12</h1>
+        <p><b>Hoeveel kilobytes of megabytes aan data werd er verstuurd om alle nodige resources in te laden? </b></p>
+        <p>2,4 MB</p>
+        <p><b>Hoe lang duurde het vooraleer alle resources van de pagina waren ingeladen? 3,20 s</b></p>
+        <p>3,20 s</p>
+        <p><b>Waarom is dit zoveel minder? Laadde de pagina sneller? </b></p>
+        <p>omdat hij al een deel van de resources eens heeft moeten laden en in 2,17s werd de pagina geladen (sneller)</p>
+        <p><b>Waar kun je zien welke documenten daadwerkelijk verstuurd werden en welke niet?</b></p>
+        <p>Je kan zien wat er is verstuurd bij Size</p>
+        <p><b>Waar vindt de browser dan de inhoud van de documenten die niet bij de server werden opgevraagd?</b></p>
+        <p>Je kan dit ook terugvinden bij Size</p>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 13</h1>
+        <p><b>Schrijf bij elke webpagina hoeveel tracking scripts door Ghostery worden ontdekt.</b></p>
+        <ul>
+            <li>https://www.nieuwsblad.be &#x2794; 10 trakers</li>
+            <li>https://www.cnn.com &#x2794; 11 trakers</li>
+            <li>https://www.vives.be &#x2794; 4 trakers</li>
+            <li>https://www.vrt.be/vrtnws/nl &#x2794; 8 trakers</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h1>Opdracht 14</h1>
+        <p><b>Hoeveel verschillende layouts tel je?</b></p>
+        <p>3 verschillende designs;</p>
+        <p>1) Start situatie: full screen</p>
+        <img src="opdracht14_1.png" width="750">
+        <p>2) Header van de pagina verkleind</p>
+        <img src="opdracht14_2.png" width="750">
+        <p>3) De layout van de tiles veranderd (voor gsm's)</p>
+        <img src="opdracht14_3.png" width="750">
+    </section>
+
+    <section>
+        <a href="opdracht1_week20.09.docx" download="opdracht1_week20.09.docx">Originele Word-doc</a>
+    </section>
 </body>
 </html>
