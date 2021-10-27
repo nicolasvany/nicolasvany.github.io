@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+}
+
+li.checked{
+    list-style-image: url("../img/checkbox_checked.png");
+}
+
+li{
+    list-style-image: url("../img/checkbox_unchecked.png");
+}
