@@ -53,8 +53,8 @@ Header
 Header
 */
 
-/* Extra small devices (phones, 447px and down) */
-@media only screen and (max-width: 447px) {
+/* Extra small devices (phones) */
+@media only screen and (max-width: 600px) {
     .header{
     width: 100%;
     margin-left: 0;
@@ -77,7 +77,7 @@ Header
 }
 
 /* Large devices (601px and up) */
-@media only screen and (min-width: 448px) {
+@media only screen and (min-width: 601px) {
     .header{
         width: 100%;
         margin-left: 0;
