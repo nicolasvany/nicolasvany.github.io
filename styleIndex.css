@@ -7,7 +7,11 @@ html, body {
     padding: 0;
 }
 
-a {
+body{
+    width: 100%;
+}
+
+a.linkLabo {
     text-decoration: none;
     display: list-item;
     margin-top: 7px;
@@ -15,7 +19,7 @@ a {
     list-style-type: none;
 }
 
-table{
+.container{
     margin-left: 30px;
 }
 
@@ -31,38 +35,68 @@ td{
 /*
 Header
 */
-header {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    height: 50px;
-    background-color: black;
-}
-
 .header .header-logo{
     color: white;
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 25px;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .header .header-img{
     width: 45px;
     color:white;
 }
+/*
+Header
+*/
 
-.header .header-menu{
-    float: right;
-    margin-right: 30px;
+/* Extra small devices (phones, 447px and down) */
+@media only screen and (max-width: 447px) {
+    .header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 90px;
+    background-color: black;
+    }
+
+    .header .header-menu{
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .header .header-menu .header-menu-link{
+        margin-right: 15px;
+        color: #ffffff;
+        float: left;
+        font-size: 25px;
+    }
 }
 
-.header .header-menu a{
-    margin-right: 15px;
-    color: #ffffff;
-    float: left;
-    font-size: 25px;
-}
+/* Large devices (601px and up) */
+@media only screen and (min-width: 448px) {
+    .header{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 50px;
+        background-color: black;
+        }
 
-.header .header-menu a:hover{
-    color: #3498db;
-}
+    .header .header-menu{
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .header .header-menu .header-menu-link{
+        margin-right: 15px;
+        color: #ffffff;
+        float: left;
+        font-size: 25px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+} 
