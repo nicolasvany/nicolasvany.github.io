@@ -53,8 +53,31 @@ Header
 Header
 */
 
-/* Extra small devices (phones) */
-@media only screen and (max-width: 448px) {
+/* Extra small devices (little phones) */
+@media only screen and (max-width: 340px) {
+    .header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 120px;
+    background-color: black;
+    }
+
+    .header .header-menu{
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .header .header-menu .header-menu-link{
+        margin-right: 15px;
+        color: #ffffff;
+        float: left;
+        font-size: 25px;
+    }
+}
+
+/* Small devices (phones) */
+@media only screen and (min-width: 340px) {
     .header{
     width: 100%;
     margin-left: 0;
