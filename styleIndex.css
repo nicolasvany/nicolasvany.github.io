@@ -13,7 +13,7 @@ body{
 
 a.linkLabo {
     text-decoration: none;
-    display: list-item;
+    display: inline-block;
     margin-top: 7px;
     margin-bottom: 7px;
     list-style-type: none;
