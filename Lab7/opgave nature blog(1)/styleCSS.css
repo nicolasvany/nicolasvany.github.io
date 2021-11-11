@@ -1,0 +1,42 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background-image: url("header.jpg");
+    height: 5rem;
+    color: white;
+    font-size: 30px;
+}
+
+article header h1{
+    font-size: 20px;
+    text-decoration: underline;
+    color: grey;
+}
+
+article{
+    background-color: rgb(231, 229, 229);
+    margin: 10px;
+    padding: 10px;
+}
+
+nav{
+    background-color: #444444;
+}
+
+nav a{
+    color: lime;
+    text-decoration: none;
+}

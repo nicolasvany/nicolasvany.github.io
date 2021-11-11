@@ -77,50 +77,6 @@ Header
     }
 }
 
-/*
-Footer
-*/
-
-footer p{
-    color: grey;
-    text-align: center;
-}
-
-/* Devices with height < 575px */
-@media only screen and (max-height: 605px){
-    footer {
-        background-color: #e7e3e2;
-        height: 90px;
-        width: 100%;
-        position: relative;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        margin-bottom: 0px;
-    }
-
-    .pFooterTop{
-        padding-top: 16px;
-    }
-}
-
-/* Devices with height > 575px */
-@media only screen and (min-height: 605px){
-    footer {
-        background-color: #e7e3e2;
-        height: 90px;
-        width: 100%;
-        position: fixed;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        margin-bottom: 0px;
-    }
-}
-/*
-Footer
-*/
-
 /* Small devices (phones) */
 @media only screen and (min-width: 340px) {
     .header{
@@ -168,3 +124,50 @@ Footer
         margin-bottom: 7px;
     }
 } 
+/*
+Header
+*/
+
+/*
+Footer
+*/
+
+footer p{
+    color: grey;
+    text-align: center;
+}
+
+/* Devices with height < 575px */
+@media only screen and (max-height: 605px){
+    footer {
+        background-color: #e7e3e2;
+        height: 90px;
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .pFooterTop{
+        padding-top: 16px;
+    }
+}
+
+/* Devices with height > 575px */
+@media only screen and (min-height: 605px){
+    footer {
+        background-color: #e7e3e2;
+        height: 90px;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+}
+/*
+Footer
+*/

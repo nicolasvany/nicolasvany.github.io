@@ -1,0 +1,35 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+    border: 1px dotted black;
+}
+
+th{
+    background-color: rgb(170,170,200);
+}
+
+td:first-child, td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.mei, .juli{
+    background-color: lightgray !important;
+    color: gray;
+}
+
+.dag td{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+.dag16{
+    background-color: rgb(250,120,120);
+}

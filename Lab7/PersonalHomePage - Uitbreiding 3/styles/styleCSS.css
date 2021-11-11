@@ -1,0 +1,149 @@
+/* Andere tags */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 30px !important;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.link{
+    background-image: url("../images/hyperlink.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    list-style-type: none;
+    padding-top: 2px;
+}
+/* Andere tags */
+
+/* Header + Nav */
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50px;
+    background-color: black;
+}
+
+.header .header-logo{
+    color: white;
+    float: left;
+    margin-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.header .header-menu{
+    float: right;
+    margin-right: 20px;
+}
+
+.header .header-menu .header-menu-link{
+    margin-right: 15px;
+    color: #ffffff;
+    float: left;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+/* Header + Nav */
+
+/* Persoonlijke info */
+
+/* Persoonlijke info */
+
+/* Hobbies */
+
+/* Hobbies */
+
+
+/* Likes */
+
+/* Likes */
+
+/* Prognose tabel */
+table.prognose, table.prognose td, table.prognose th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+/* Prognose tabel */
+
+/* Vrienden */
+.onbekend{
+    background-color: red;
+}
+
+.onbekendImportant{
+    background-color: red !important;
+}
+
+.datagrid table { border-collapse: collapse; text-align: left; width: 80%; } 
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.datagrid table td, .datagrid table th { padding: 3px 10px; }
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420) );background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');background-color:#36752D; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #36752D; } 
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { color: #275420; border-left: 1px solid #C6FFC2;font-size: 12px;font-weight: normal; }
+.datagrid table tbody .alt td { background: #DFFFDE; color: #275420; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+
+div.datagrid table, div.datagrid table td{
+    border: 1px solid black;
+}
+/* Vrienden */
+
+/* Footer */
+footer {
+    background-color: #e7e3e2;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+footer p{
+    color: grey;
+    text-align: center;
+}
+
+.pFooter{
+    padding-top: 10px;
+}
+/* Footer */
