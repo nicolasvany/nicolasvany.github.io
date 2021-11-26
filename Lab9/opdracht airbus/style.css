@@ -1,0 +1,160 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("fotos/pagebackground.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: #e6e6e6;
+}
+
+/* Top */
+header{
+    height: 200px;
+    background-image: url("fotos/bgsky3.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header p{
+    text-align: center;
+    color: darkblue;
+}
+
+.teKleinPNG{
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+}
+
+.bovenTitel{
+    margin-top: 0;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.onderTitel{
+    font-size: 240%;
+    font-weight: bold;
+}
+/* Top */
+
+/* News */
+.news{
+    width: 250px;
+    float: right;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+
+.news h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+.news p{
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* News */
+
+/* Main */
+.main{
+    width: 700px;
+}
+/* Main */
+
+/* Logo */
+.logo img{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logoIntro{
+    display: flex;
+}
+/* Logo */
+
+/* Introduction */
+.introduction{
+    background-color: white;
+    color: black;
+}
+
+.introduction p{
+    padding-bottom: 20px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.introduction .blauweTekst{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Introduction */
+
+/* Gallery */
+.gallery{
+    background-color: #999999;
+}
+
+.gallery .foto{
+    display: inline-block;
+}
+
+.gallery .foto img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px solid white;
+    outline: 1px dashed black;
+}
+/* Gallery */
+
+/* Bottom */
+.bottom{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+}
+
+.bottom a{
+    color: white;
+}
+
+.bottom a:hover{
+    color: red;
+}
+/* Bottom */
+
+/* Block */
+.block{
+    display: inline-block;
+    padding-left: 120px;
+}
+/* Block */
+
+/* Copyright */
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 956px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+/* Copyright */
