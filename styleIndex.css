@@ -9,6 +9,7 @@ html, body {
 
 body{
     width: 100%;
+    height: 100vh;
 }
 
 a.linkLabo {
@@ -142,11 +143,6 @@ footer {
     background-color: #e7e3e2;
     height: 90px;
     width: 100%;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
 }
 
 .pFooterTop{
