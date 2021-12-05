@@ -1,0 +1,44 @@
+.custom-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,47,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding-left: 10px;
+}
+
+body{
+    overflow-x: hidden;
+    height: vh100;
+}
+
+.line{
+    height: 1px;
+    background-color: black;
+    border-radius: 10px;
+    width: 50vw;
+    display: block;
+    margin: 20px auto;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,47,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.link{
+    background-image: url("images/hyperlink.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.footerLink{
+    margin: 10px;
+}
+
+.footerLink img{
+    margin-top: 10px;
+}

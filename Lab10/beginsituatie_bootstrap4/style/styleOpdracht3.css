@@ -1,0 +1,24 @@
+div{
+    background: gray;
+    height: 20vh;
+    border: 5px solid white;
+    display: inline-block;
+}
+
+@media only screen and (max-width:768px) {
+    div{
+        max-width: 100vw!important;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    div{
+        max-width: 48vw!important;
+    }
+}
+
+@media only screen and (min-width:992px ) {
+    div{
+        max-width: 24vw!important;
+    }
+}
