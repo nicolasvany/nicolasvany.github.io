@@ -1,0 +1,129 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+*{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px black solid;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Header */
+header img{
+    height: 50px;
+}
+
+.header{
+    border-bottom: 1px solid #ebe8e8;
+    width: 100%;
+}
+
+header{
+    margin:auto;
+    width: 600px;
+}
+
+@media only screen and (min-width: 770px){
+    header{
+        width: 750px;
+    }
+
+    nav{
+        width: 750px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    header{
+        width: 950px;
+    }
+
+    nav{
+        width: 1000px;
+    }
+}
+/* Header */
+
+/* Nav */
+nav{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    display: grid;
+    grid-template-areas: 
+    'a b c d e f g';
+}
+
+nav ul li{
+    list-style-type: none;
+    border-left: 1px solid #ebe8e8;
+    text-align: center;
+}
+
+nav ul li:first-child{
+    border: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5b4746;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #fff100;
+}
+/* Nav */
+
+/* Main */
+
+/* Main - header */
+
+/* Main - header */
+
+/* Main - recipes */
+
+/* Main - recipes */
+
+/* Main - recipe items */
+/* Main - recipe items */
+
+/* Main - recommended */
+
+/* Main - recommended */
+
+/* Main */
+
+/* Footer */
+.left{
+    background-color: white;
+    color: black;
+    float: left;
+}
+
+.right{
+    background-color: black;
+    color: white;
+    float: right;
+}
+/* Footer */

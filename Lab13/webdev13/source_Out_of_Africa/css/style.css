@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/stripverloopokapi.jpg");
+    background-repeat: repeat-x;
+    background-size: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    background-image: url("../img/headerokapi.jpg");
+    background-repeat: no-repeat;
+    height: 180px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+nav{
+    display: block;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px 37px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 0 0 10px;
+    width: 500px;
+}
+
+article{
+    line-height: 107%;
+}
+
+article h1{
+    margin: 15px 0px;
+    font-size: 1em;
+}
+
+article p{
+    font-size: 0.98em;
+}
+
+article img{
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 25px 0px;
+}
+
+span{
+    display: block;
+    border: 1px solid black;
+    margin: 15px 5px 0 0;
+    padding: 10px;
+    font-size: 1.25em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+aside{
+    box-sizing: border-box;
+    float: right;
+    padding: 0 10px;
+    width: 372px;
+}
+
+aside img{
+    display: block;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+footer{
+    border-top: 5px solid black;
+    box-sizing: border-box;
+    background-color: #eee9dd;
+    padding: 10px 25px;
+    height: 78px;
+    width: 100%;
+    text-align: right;
+}
+
+/* -- classes -- */
+.wrapper{
+    border: 1px solid black;
+    margin: 0 auto; /* margin T en B: 0  -  margin L en R: auto */
+    margin-bottom: 1px;
+    width: 970px;
+    background-color: #eee9dd;
+}
+
+/* -- CLEARFIX -- */
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
