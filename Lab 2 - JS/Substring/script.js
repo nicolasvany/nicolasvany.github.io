@@ -2,7 +2,7 @@ const setup = () =>{
     const substring = () => { 
         let txtInput = document.getElementById("txtInput"); 
         let tekst = txtInput.value; 
-        txtOutput.innerHTML = tekst.substring((number1.value-1), number2.value);
+        txtOutput.innerHTML = tekst.substring((number1.value), number2.value);
     } 
 
     let btnSubstring= document.getElementById("btnSubstring"); 
