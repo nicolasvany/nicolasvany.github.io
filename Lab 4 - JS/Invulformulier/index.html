@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Opdracht - Invulformulier</title>
+</head> 
+<body>
+    <form action="filename" method="post">
+        <label for="firstName">First name*:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Your first name" required autofocus /><br />
+
+        <label for="lastName">Last name*:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name" required /><br />
+
+        <p>Which sport do you train ?</p>
+        Running<input type="checkbox" name="running" value="running" /><br />
+        Swimming<input type="checkbox" name="swimming" value="swimming" /><br />
+        Rowing<input type="checkbox" name="rowing" value="rowing" />
+
+        <p>What is your gender ?</p>
+        <input type="radio" name="gender" value="male" />Male<br />
+        <input type="radio" name="gender" value="female" />Female<br />
+
+        <label for="favMovie">Favorite movie:</label>
+        <input type="text" id="favMovie" name="favMovie"/><br />
+
+        <label for="favQuote">Favorite quote:</label>
+        <input type="text" size="22px" id="favQuote" name="favQuote" placeholder="Write your favorite quote" /><br />
+
+        <label for="password">Password*:</label>
+        <input type="password" id="password" name="password" required/><br />
+
+        <label for="food">Favorite food:</label>
+        <select id="food">
+            <option value="hamburger">Hamburger</option>
+            <option value="spaghetti">Spaghetti</option>
+            <option value="Fries">Fries</option>
+        </select><br />
+
+        <input type="file" value="bestand" id="bestand" /><br />
+
+        <label for="email">Email adress:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email adress" /><br />
+
+        <label for="favNumbMax10">Favorite number between 1-10:</label>
+        <input type="number" min="1" max="10" id="favNumbMax10" name="favNumbMax10" /><br />
+
+        <label for="favNumbMax1000">Favorite number between 11-1000:</label>
+        <input class="slider" type="range" min="11" max="1000" step="1" id="favNumbMax1000" name="favNumbMax1000"/><span id="sliderValue"></span><br />
+
+        <label for="bornDate">When where you born?</label>
+        <input type="date" id="bornDate" name="bornDate" /><br />
+
+        <label for="regNumber">Belgium zip-code reg number*</label>
+        <input type="text" pattern="[0-9]{4}" id="regNumber" name="regNumber" required /><br />
+
+        <label for="zoek">Search for something:</label>
+        <input type="search" id="zoek" name="zoek" /><br />
+
+        <label for="kleur">What is your favorite color ?</label>
+        <input type="color" id="kleur" name="kleur" /><br />
+
+        <input type="submit">
+    </form>
+
+
+<script src="script.js"></script>
+
+</body> 
+</html> 
