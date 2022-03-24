@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formvoorwaarden</title>
+</head>
+<body>
+    <form>
+        <label for="isRocker">Is rocker</label>
+        <input type="checkbox" id="isRocker" name="isRocker" /><br>
+
+        <label>Moedertaal</label>
+        <input type="radio" id="Nederlands" name="moedertaal" value="nl" />Nederlands
+        <input type="radio" id="Frans" name="moedertaal" value="fr" />Frans
+        <input type="radio" id="Engels" name="moedertaal" value="en" />Engels<br>
+
+        <label for="favBuurland">Favoriete buurland</label>
+        <select id="favBuurland" name="favBuurland">
+            <option value="Frankrijk">Frankrijk</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="Nederland">Nederland</option>
+        </select><br>
+
+        <label for="bestelling">Bestelling</label>
+        <select id="bestelling" name="bestelling" multiple>
+            <option value="Aardappelen">Aardappelen</option>
+            <option value="Brood">Brood</option>
+            <option value="Melk">Melk</option>
+            <option value="Biefstuk">Biefstuk</option>
+            <option value="Chips">Chips</option>
+            <option value="Krant">Krant</option>
+        </select><br>
+
+        <input type="button" value="Toon resultaat" id="verzenden" />
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>

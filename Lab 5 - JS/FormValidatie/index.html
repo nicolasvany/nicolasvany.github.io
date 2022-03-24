@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Form validatie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div id="voornaam">
+			<label>Voornaam:</label>
+			<input type="text" />
+			<span class="errorMessage"></span>
+		</div>
+
+        <div id="naam">
+            <label>Naam:</label>
+            <input type="text" />
+            <span class="errorMessage"></span>
+        </div>
+
+        <div id="datum">
+            <label>Geboortedatum:</label>
+            <input type="text" />
+            <span class="errorMessage"></span>
+        </div>
+
+        <div id="email">
+            <label>Email:</label>
+            <input type="text" />
+            <span class="errorMessage"></span>
+        </div>
+
+        <div id="kinderen">
+            <label>Aantal kinderen:</label>
+            <input type="text" />
+            <span class="errorMessage"></span>
+        </div>
+
+        <input type="button" id="validatieButton" value="Valideer" />
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>
