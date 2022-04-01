@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorpicker - Uitbreiding</title>
+
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<section id="buitenkader">
+
+    <section id="linkersectie">
+        0<input type="range" class="sliderRed" value="128" min="0" max="255" />255   red: &#9;<span id="textValueRed"></span><br />
+        0<input type="range" class="sliderGreen" value="128" min="0" max="255" />255 green: &#9;<span id="textValueGreen"></span><br />
+        0<input type="range" class="sliderBlue" value="128" min="0" max="255" />255  blue: &#9;<span id="textValueBlue"></span><br />
+    </section>
+    <section>
+        <div class="colorBox" />
+
+    </section>
+
+    <input type="button" value="save" id="saveButton">
+</section><br>
+<section class="savedBoxes">
+
+</section>
+<script type="text/javascript" charset="utf-8" src="script.js"></script>
+</body>
+</html>
