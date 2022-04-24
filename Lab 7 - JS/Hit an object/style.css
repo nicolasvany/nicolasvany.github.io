@@ -1,0 +1,17 @@
+#playField{
+    height: 800px;
+    width: 600px;
+    border: 1px black solid;
+}
+
+#klikobject{
+    position: relative;
+}
+
+#startButton{
+    float: left;
+}
+
+#score{
+    float: right;
+}
