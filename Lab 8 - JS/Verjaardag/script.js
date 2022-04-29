@@ -8,7 +8,9 @@ const setup = () =>{
         console.log(Math.floor(aantalDagen) + " dagen");
     }
 
-    document.addEventListener("click", berekenAantalDagen);
+    let berekenButton = document.getElementById("berekenButton");
+
+    berekenButton.addEventListener("click", berekenAantalDagen);
 }
 
 window.addEventListener("load", setup);

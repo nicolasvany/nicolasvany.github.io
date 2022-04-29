@@ -46,7 +46,7 @@ const bewaarBewerktePersoon = () => {
             console.log(JSON.stringify(persoon))
             personen[gekozenPersoonID] = persoon;
             document.getElementById("persoon"+(personen.length-1).toString()).innerText = persoon.naam + " " + persoon.familienaam
-
+            
         }
     }
 };
