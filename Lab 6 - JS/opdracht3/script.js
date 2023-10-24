@@ -15,5 +15,4 @@ const voegTextToe = () => {
     if(p.textContent != "null"){
         div.append(p);
     }
-
 }

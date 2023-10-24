@@ -3,7 +3,7 @@ const setup = () =>{
 
     for(let i = 0; i < listElementen.length; i++){
         listElementen[i].classList.add('listitem');
-        listElementen[i].style.color = "red";
+        listElementen[i].style.color = "blue";
     }
     
     

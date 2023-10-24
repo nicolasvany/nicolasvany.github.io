@@ -1,4 +1,3 @@
-
 const setup = () => { 
 	let btnOptellen=document.getElementById("btnOptellen");
 	let btnAftrekken=document.getElementById("btnAftrekken");
